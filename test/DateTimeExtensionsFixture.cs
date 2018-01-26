@@ -10,7 +10,7 @@ namespace test
 {
     public class DateTimeExtensionsFixture
     {
-        public static List<CultureTestParameter[]> StaticParameter => new List<CultureTestParameter[]>
+        public static IEnumerable<object[]> StaticParameter => new List<CultureTestParameter[]>
         {
             new CultureTestParameter[]
             {
